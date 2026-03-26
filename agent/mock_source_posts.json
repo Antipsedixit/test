@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1001",
+    "text": "Esempio post sorgente per test agente.",
+    "created_at": "2026-03-26T10:00:00Z",
+    "media_urls": []
+  },
+  {
+    "id": "1002",
+    "text": "Secondo post di esempio con attribuzione suggerita.",
+    "created_at": "2026-03-26T11:00:00Z",
+    "media_urls": []
+  }
+]
