@@ -1,0 +1,30 @@
+{
+  "sources": [
+    {
+      "type": "x",
+      "name": "giorgia_meloni_x",
+      "username": "GiorgiaMeloni",
+      "bearer_env": "X_BEARER_TOKEN",
+      "max_results": 5
+    },
+    {
+      "type": "json_file",
+      "name": "fdi_mock",
+      "path": "agent/mock_source_posts.json"
+    }
+  ],
+  "destinations": [
+    {
+      "name": "instagram",
+      "webhook_env": "INSTAGRAM_WEBHOOK_URL"
+    },
+    {
+      "name": "facebook",
+      "webhook_env": "FACEBOOK_WEBHOOK_URL"
+    },
+    {
+      "name": "x",
+      "webhook_env": "X_WEBHOOK_URL"
+    }
+  ]
+}
